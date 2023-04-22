@@ -15,7 +15,7 @@ library(shiny)
 library(shinythemes)
 library(dplyr)
 #library(shinyWidgets)
-europe <- readRDS("C:/Users/FischerJ/Dropbox/Courses/R Shiny/Shiny_Course/Data/europe.rds")
+europe <- readRDS("europe.rds")
 
 
 ui <- fluidPage(
